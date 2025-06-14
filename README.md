@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zentry Website Replica
 
-## Getting Started
+A modern, animated replica of the Zentry.com website showcasing cutting-edge web development techniques and smooth user interactions.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Stunning Animations**: Powered by GSAP for smooth scroll-triggered animations
+- **Modern Design**: Faithful recreation of Zentry's immersive gaming-themed interface
+- **Responsive Layout**: Optimized for all device sizes with Tailwind CSS v4
+- **Interactive Elements**: Dynamic video backgrounds, hover effects, and audio controls
+- **Performance Optimized**: Built with Next.js 15 and Turbopack for lightning-fast development
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: JavaScript/JSX
+- **Styling**: Tailwind CSS v4
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Icons**: React Icons
+- **Fonts**: Custom font loading with Next.js
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css      # Global styles and Tailwind configuration
+│   ├── layout.jsx       # Root layout with font setup
+│   └── page.jsx         # Main page component
+└── components/
+    ├── About.jsx        # About section with scroll animations
+    ├── AnimatedTitle.jsx # Reusable animated title component
+    ├── Button.jsx       # Custom button component
+    ├── Contact.jsx      # Contact section
+    ├── Features.jsx     # Features showcase with video cards
+    ├── Footer.jsx       # Footer component
+    ├── Hero.jsx         # Hero section with video switching
+    ├── Navbar.jsx       # Navigation with scroll effects
+    ├── RoundedCorners.jsx # Utility component
+    └── Story.jsx        # Story section
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Key Components
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Hero Section**: Interactive video switching with smooth transitions
+- **Animated Titles**: GSAP-powered text animations on scroll
+- **Bento Grid**: Modern card layout for features showcase
+- **Floating Navigation**: Dynamic navbar that responds to scroll direction
+- **Audio Controls**: Interactive sound indicators with visual feedback
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. **Clone the repository**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone <repository-url>
+   cd zentry
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint for code quality
+
+## 🎯 Original Design
+
+This project is a replica of the official [Zentry.com](https://zentry.com) website, recreated to demonstrate modern web development skills and animation techniques.
