@@ -28,6 +28,20 @@ body {
   font-family: var(--font-general), sans-serif;
 }
 
+*::-webkit-scrollbar {
+  width: 0px;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: none;
+  background: transparent;
+}
+
 @utility border-hsla {
   @apply border border-white/20;
 }
